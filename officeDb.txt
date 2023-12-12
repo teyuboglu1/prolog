@@ -1,0 +1,37 @@
+
+
+%Работу Выполнил Еюбоглу Тимур НПИбд-01-22 1032224357
+
+sotrudnik(100,"Maria","female",20,"28.10.2022",1005,21,1).
+sotrudnik(129,"Vladimir","male",19,"08.04.2021",1003,17,2).
+sotrudnik(141,"Evgenia","female",25,"02.05.2018",1001,13,5).
+sotrudnik(133,"Radmir","male",30,"10.12.2019",1003,15,4).
+sotrudnik(124,"Alexander","male",32,"17.02.2016",1001,11,7).
+sotrudnik(115,"Mark","male",19,"20.09.2015",1007,19,8).
+sotrudnik(110,"Stefania","female",27,"01.07.2012",1005,21,11).
+
+% Department (department_id, name)
+otdel(1001,"Sales Department").
+otdel(1003,"IT Department").
+otdel(1005,"Technical Support Department").
+otdel(1007,"Marketing Department").
+
+% Position (position_id, name, description, department_id)
+dolzhnost(11, "Senior Sales Manager", 1001).
+dolzhnost(13, "Assistant Sales Manager", 1001).
+dolzhnost(15, "White Hat Hacker", 1003).
+dolzhnost(17, "System Administrator", 1003).
+dolzhnost(19, "Marketing Specialist", 1007).
+dolzhnost(21, "Technical Support Manager", 1005).
+
+% Occupies (employee_id, position_id, start_date)
+zanimaet(100,21,"30.10.2022").
+zanimaet(129,17,"01.05.2021").
+zanimaet(141,13,"10.05.2022").
+zanimaet(133,15,"12.12.2022").
+zanimaet(124,11,"19.02.2021").
+zanimaet(115,19,"22.09.2022").
+zanimaet(110,21,"07.07.2021").
+
+
+
